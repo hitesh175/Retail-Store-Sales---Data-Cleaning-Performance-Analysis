@@ -1,15 +1,4 @@
-SRH Campus Hamburg
-M.Sc. Applied Data Science and Artificial Intelligence
-Course: Data Management Project
-Instructor: Jan-Paul Briem
-Date: 03.05.2026
-Data Cleaning & Profiling Project Documentation
-Dataset: Retail Store Sales (Dirty)
-Team Members:
-•	Hitesh Kanagala Rajendra Prasad
-•	Vinay Somala
-•	Nitesh Kumar Puchakayala
-________________________________________
+_______________________________________
 1. Project Objective and User Definition
 The User: National Sales Director of a retail chain.
 The Objective: The user requires a clean, reliable dataset to analyse monthly revenue trends, identify top-performing product categories, and understand customer payment preferences.
@@ -55,10 +44,5 @@ The output (.hyper extract) was imported into Tableau Desktop to validate the cl
  <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/3ab39e8c-949f-4ab5-8df6-a3dc1e4acef5" />
 
 Figure 3: Post-cleaning dashboard demonstrating functional time-series and categorical analysis.
-________________________________________
-6. Individual Student Reflection
-•	Hitesh Kanagala Rajendra Prasad: Took the lead on the Data Engineering workflow. Hitesh configured the Tableau Prep environment, designed the logic for the Calculated Fields to impute missing financial data, and executed the data type conversions to prepare the final .hyper extract.
-•	Vinay Somala: Focused on Data Visualization and Impact Assessment. Vinay took the cleaned extract into Tableau Desktop, designed the interactive user dashboards (including the categorical bar charts and payment heatmaps), and ensured the visual outputs directly solved the business user's core problem.
-•	Nitesh Kumar Puchakayala: Managed the Data Profiling and Quality Assurance phases. I conducted the initial visual analysis of the raw CSV to identify nulls and typos, documented the business assumptions, and compiled the final project documentation to bridge the technical workflow with the academic requirements.
 ________________________________________
 
