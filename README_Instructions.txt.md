@@ -1,52 +1,11 @@
-# **Project: Retail Store Sales - Data Cleaning \& Analysis**
+# Opening the Tableau Project
 
+1. Download the repository files to a local folder.
+2. Open `DM_project.tflx` in Tableau Prep Builder.
+3. If an input connection is unresolved, select its input step and browse to the included `retail_store_sales.csv`.
+4. Inspect transformation results and choose a local output location before running the flow.
+5. Open `Retail Sales Performance Dashboard.twb` in Tableau Desktop.
+6. If its extract connection is unresolved, point it to `Output.hyper` or the extract you just generated.
+7. Refresh the views and verify totals.
 
-
-
-
-Thank you for reviewing our Data Management project. Inside this ZIP folder, you will find all the required files, including our raw data, Tableau Prep flow, Tableau Desktop dashboard, and final documentation.
-
-
-
-Because standard Tableau Prep (.tfl) files utilize absolute file paths based on the creator's local machine, the data connection will temporarily break when opened on your computer.
-
-
-
-To review and run our cleaning flow, please follow these quick steps:
-
-
-
-Extract all files from this ZIP folder to a single location on your computer.
-
-
-
-Open the DM\_project.tfl file in Tableau Prep Builder.
-
-
-
-You will notice a red exclamation mark (!) on the first "Input" step (retail\_store\_sales.csv). This is expected.
-
-
-
-Click on that Input step.
-
-
-
-In the pane below (under the 'Settings' tab), locate the 'Connection Details' and click the Browse button.
-
-
-
-Select the retail\_store\_sales.csv file that is included in this extracted folder.
-
-
-
-The flow will instantly reconnect, and all errors will clear. You can now click Run Flow to generate the output.
-
-
-
-After running the flow, you can open the Retail Sales Performance Dashboard.twbx file in Tableau Desktop to view the visualizations detailing the impact of our data cleaning measures.
-
-
-
-
-
+The committed files are a packaged Prep flow (`.tflx`) and an unpackaged Desktop workbook (`.twb`). Paths stored by the original author may need updating. Preserve the source CSV and use a separate output location when experimenting.
